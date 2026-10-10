@@ -1,4 +1,14 @@
-# Python 3.12
+# Python 3.13+ (tested on 3.14.7)
+
+# Dataset download / sampling scripts
 roboflow==1.5.0
 python-dotenv==1.2.3
 PyYAML==6.0.3
+
+# Training, evaluation, inference
+ultralytics==8.4.173
+opencv-python==5.0.0.93
+numpy==2.3.5
+
+# src/trainingNotebook.ipynb was run in Google Colab (free T4 GPU).
+# Open it there or in any local Jupyter install; no extra pip packages needed.
