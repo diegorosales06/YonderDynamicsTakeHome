@@ -1,0 +1,116 @@
+20231021_173458_jpg.rf.9b52109ad7f72f41a8230c6ec2783080.jpg
+  FP: mallet conf=0.28
+
+234_jpg.rf.6ab4ad64c0611b91abfb6a85aa722f97.jpg
+  FP: mallet conf=0.52
+
+51HvpIcO3qL-_AC_UF894-1000_QL80__jpg.rf.8d88be6539b42903ad6e200f6668e565.jpg
+  FP: bottle conf=0.57
+
+IMG_0513_JPG_jpg.rf.a4e9d43d4a5a7a4eacab22f4cbcae5e7.jpg
+  FN: bottle
+
+IMG_0516_JPG_jpg.rf.4e3cbede6e7271c3aaf90c1e711784b4.jpg
+  FP: mallet conf=0.68
+  FN: mallet
+
+IMG_0796_JPG_jpg.rf.87c53fb83807c9b1135ad54d4a5920c1.jpg
+  FN: bottle
+
+IMG_4525_jpg.rf.70209c61e0a75fc1eb2aef5c20879022.jpg
+  FP: mallet conf=0.39
+
+IMG_4534_jpg.rf.d7a16725b34d6588a2a4018bfd6bd632.jpg
+  FN: bottle
+
+IMG_9183_jpeg_jpg.rf.e00be9ea0464675e3e35669d8d99f496.jpg
+  FP: bottle conf=0.94
+  FP: bottle conf=0.85
+
+JPEG-image-13_jpeg_jpg.rf.a0f05419c76f4dd15fec9cf483610039.jpg
+  FP: bottle conf=0.60
+  FP: bottle conf=0.31
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+
+JPEG-image-221_jpeg_jpg.rf.1e54e79947f5574bd5661956298342eb.jpg
+  FP: bottle conf=0.35
+
+KA-Nalgene-Comp-copy-3_jpg.rf.2995b56ee5fe93b40dc686330ceafb42.jpg
+  FP: bottle conf=0.51
+
+Nalgene-Ultralite-Wide-Mouth-16oz-32oz-48oz__39727-copy_jpg.rf.f5214c2c2d9d254a60ca23a971da57b1.jpg
+  FN: bottle
+
+Untitled-drawing-44_jpg.rf.d3184add65cdc03dfd15c7a5760c8ccb.jpg
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+  FN: bottle
+
+c_mallet_343_JPG_jpg.rf.8fd5cd4bc789bfa4a6cc6d929cccc641.jpg
+  FP: mallet conf=0.81
+
+green_nalgene_vid_mp4-129_jpg.rf.e63cc61a6fecdd73ad4d33b5f78f426a.jpg
+  FP: bottle conf=0.67
+
+green_nalgene_vid_mp4-187_jpg.rf.6ca6a862186735408f13c9da0087f41f.jpg
+  FP: bottle conf=0.68
+  FP: bottle conf=0.49
+
+mallet1630_jpeg_jpg.rf.87844059a48193f6962fb7468f6131b3.jpg
+  FP: mallet conf=0.31
+
+mallet18_png_jpg.rf.a337a8da98af3f55435aa6272fb29292.jpg
+  FP: mallet conf=0.46
+
+mallet256_jpeg_jpg.rf.ae9a9eea87ded33f847e5a26e8e5d0cd.jpg
+  FP: mallet conf=0.30
+  FN: bottle
+
+mallet28_jpeg_jpg.rf.694c70b261238f7a18519e30bdcaaedb.jpg
+  FN: bottle
+
+mallet385_jpeg_jpg.rf.de31f44cb6d67a1ae4289c29cf3dab5c.jpg
+  FN: bottle
+
+mallet543_jpeg_jpg.rf.2a061c979a0c69f31d1eb7ae26a0b53c.jpg
+  FP: mallet conf=0.37
+  FN: mallet
+
+mallet941_jpeg_jpg.rf.da0b3419b1dc296b590110943d250233.jpg
+  FP: mallet conf=0.44
+  FN: mallet
+
+rubber-mallet-13059340_png_jpg.rf.8ef5abf36d68df59ebd6b03a36c4837b.jpg
+  MISCLASS: predicted bottle (0.26) over GT mallet
+
+t_bot_mal156_jpeg_jpg.rf.24a239e28ae12f5889f8778764f76ecc.jpg
+  FP: bottle conf=0.80
+  FP: bottle conf=0.73
+
+t_bot_mal236_jpeg_jpg.rf.9c2c6c6be475a62ec2c18b3c2e161186.jpg
+  FP: bottle conf=0.71
+
+t_bot_mal327_jpeg_jpg.rf.0e09a01d30e10acd7beefaadafff0483.jpg
+  FN: bottle
+  FN: bottle
+
+t_bot_mal382_jpeg_jpg.rf.ba77718c4a3363ce774c105fe9f01c85.jpg
+  FP: bottle conf=0.28
+
+t_bot_mal484_jpeg_jpg.rf.5810ee5d6e5756aae6cd10faf90d14f6.jpg
+  FN: bottle
+
+t_bot_mal509_jpeg_jpg.rf.8dbfcbce7199791098b9a7453b8e41f0.jpg
+  FP: bottle conf=0.68
+
+y2mate_com-The-Worlds-Best-Water-Bottle-Nalgene-Wide-Mouth-32-Oz_1080p_mp4-162_jpg.rf.c579c8c037ea1be56f39a3db14586759.jpg
+  FP: bottle conf=0.31
