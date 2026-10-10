@@ -4,10 +4,16 @@ Replace this template with your own. Keep it short: write what a teammate would 
 
 ## 1. How to run it
 
+**0) Install Python**
+```bash
+brew install python
+```
+
+
 **1) Clone the repo and set up a virtual env**
 ```bash
 git clone https://github.com/diegorosales06/YonderDynamicsTakeHome.git
-cd YD_ML_TakeHome
+cd YonderDynamicsTakeHome
 python -m venv .venv
 source .venv/bin/activate        # Windows PowerShell: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -115,4 +121,23 @@ Applied via Roboflow with 3 augmented outputs per source image, pushing the 800 
 -  The larger 8s model was trained on 71% the amount of epochs. 8s was trained on 50, and 8n was trained on 70 epochs. 
 ## 3. Known limitation
 
+
+### Error analysis on the validation set: 
+Run src/findFaults.py to get this validation set, will be under src/errors
+The failures group into a few repeating patterns:
+- Mallets had signicfalty more false positives than bottles. Taking a look at the images, essentialy every orange item was market as a mallet. 
+- Transparent / clear bottles don't have a strong distinguishing silhouette against the background.
+- Bottles that are tipped on their side or partially behind another object confuse the model
+
+### Errors on IRL testing:
 As seen in the demo video (https://youtu.be/VK30G-J6Fv8?si=llHJ_kCOxXkI9puL), the model starts to fail in backgrounds that are not rocky/tan. Green backgrounds or indoors enviroments cause the model to completely miss 
+
+### What I would do next: 
+1. Collect more bottle data, specifically the hard cases. Transparent bottles, bottles on their side, bottles in cluttered scenes. Our recall ceiling is bottle recall, and augmentation can't fix a lack of variety in source photos.
+3. Add indoor + green backgrounds training data.The IRL test shows the model falls apart indoors and agasint backgrouds that are not tan/gray. If the rover will ever operate in a lab, hangar, or at dusk, this is a issue with deployment
+4. Tighten the boxes. The mAP50 to mAP50-95 drop says the model knows roughly where objects are but not precisely. I could try a higher input resolution during training (though it would cost rover compute), or a tighter IoU threshold
+
+### Things that currently don't work
+- Model is unreliable indoors — training data is almost entirely outdoor scenes.
+- Transparent / mostly-empty bottles get missed often.
+- Bounding boxes aren't tight enough for a grasping task without additional refinement.
